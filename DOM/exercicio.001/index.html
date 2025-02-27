@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Básicos de JavaScript</title>
+    <style>
+        .modificado {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Ola sou a Thauany 1 Original</h1>
+    <p id="paragrafo">Ola mundo !.</p>
+
+    <button onclick="modificarTexto()">Modificar Texto</button>
+    <button onclick="alterarFundo()">Alterar Cor do Fundo</button>>
+    <button onclick="toggleClasse()">Adicionar/Remover Classe</button>
+
+    <script>
+        function modificarTexto() {
+            document.getElementById("titulo").textContent = "Ola sou a Thau 2";
+            document.getElementById("paragrafo").textContent = "O texto do parágrafo foi alterado!";
+        }
+
+        function alterarFundo() {
+            document.body.style.backgroundColor = "blue";
+        }
+
+        function toggleClasse() {
+            document.getElementById("titulo").classList.toggle("destaque");
+        }
+    </script>
+
+</body>
+</html>
