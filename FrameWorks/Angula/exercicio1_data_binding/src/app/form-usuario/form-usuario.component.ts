@@ -24,3 +24,6 @@ export class FormUsuarioComponent {
   }
   
 }
+
+type nul > src/app/models/produto.model.ts
+type nul > src/app/models/pedido.model.ts 
