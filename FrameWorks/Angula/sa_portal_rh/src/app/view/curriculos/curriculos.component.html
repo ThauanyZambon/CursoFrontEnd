@@ -1,0 +1,19 @@
+<section class="lista-curriculos">
+  <!-- Repetição dos currículos -->
+  <div *ngFor="let curriculo of curriculos" class="card">
+-top">
+
+    <div class="card-body">
+      <h5 class="card-title"> Nome: {{ curriculo.nome }}</h5>
+      <h5 class="card-title"> Contato: {{ curriculo.contato }}</h5>
+      <p class="card-text"> Email: {{ curriculo.email }}</p>
+      <p class="card-text"> Complemento: {{ curriculo.complemento }}</p>
+      <p class="card-text"> Salário: R$ {{ curriculo.renda | number:'1.2-2' }}</p>
+    </div>
+  </div>
+
+  <div class="rodape">Total: {{ curriculos.length }} currículo(s)</div>
+</section>
+
+<p class="text-success">✅ Currículos funcionando!</p>
+

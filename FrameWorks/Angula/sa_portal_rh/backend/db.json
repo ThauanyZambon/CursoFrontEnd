@@ -1,0 +1,70 @@
+{
+  "vagas": [
+    {
+      "id": "1",
+      "nome": "Desenvolver FrontEnd Jr",
+      "foto": "foto1.jpg",
+      "descricao": "Trabalhar com HTML, CSS e JS",
+      "salario": 4000
+    },
+    {
+      "id": "2",
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 7000
+    },
+    {
+      "id": "3",
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 10000
+    },
+    {
+      "id": 4,
+      "nome": "Engenheiro de Nuvem",
+      "foto": "foto4.jpg",
+      "descricao": "Trabalhar com Nuvem AWS",
+      "salario": 8000
+    }
+  ],
+  "curriculos": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "contato": "11999999999",
+      "email": "maria.silva@email.com",
+      "complemento": "Disponível para mudança de cidade",
+      "renda": 3500,
+      "foto": "maria.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "João Oliveira",
+      "contato": "11988887777",
+      "email": "joao.oliveira@email.com",
+      "complemento": "Inglês avançado",
+      "renda": 4200,
+      "foto": "joao.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Ana Souza",
+      "contato": "11977776666",
+      "email": "ana.souza@email.com",
+      "complemento": "Formada em Administração",
+      "renda": 3800,
+      "foto": "ana.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Carlos Lima",
+      "contato": "11966665555",
+      "email": "carlos.lima@email.com",
+      "complemento": "Disponível em horário integral",
+      "renda": 4000,
+      "foto": "carlos.jpg"
+    }
+  ]
+}

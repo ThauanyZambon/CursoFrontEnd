@@ -8,7 +8,7 @@ import { Vaga } from '../models/vaga.model';
 })
 export class VagasService {
   //atributo
-  private apiUrl = "http://localhost:3000/vagas"; // Caminho da API
+  private apiUrl = "http://localhost:3012/vagas"; // Caminho da API
 
 
   constructor(private http: HttpClient ) { }
@@ -20,7 +20,7 @@ export class VagasService {
     return this.http.get<Vaga[]>(this.apiUrl); // endereço da conexão e retorno da informação
   }
 
-  //post - create
+  //post - create 
   cadastrarVaga(vaga: Vaga): Observable<Vaga[]> {
     return this.http.post<Vaga[]>(this.apiUrl, vaga);
   }
@@ -37,5 +37,3 @@ export class VagasService {
     return this.http.delete<Vaga[]>(urlDeletar);
   }
 }
-
-
